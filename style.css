@@ -1,0 +1,39 @@
+
+  
+  
+  /* селектор по классу в приоритет над селектором по тегам */
+  .subheading {
+    text-decoration: underline;
+    text-align:left;
+  }
+  h1 {
+    color: rgb(81, 114, 22); /* Цвет текста заголовка первого уровня */
+}
+h2 {
+    color: rgb(22, 22, 93); /* Цвет текста заголовка второго уровня */
+}
+  h3{color: rgb(111, 14, 38);
+
+  }
+  /* селектор по тегу */
+  p {
+    /* font-family: "Dancing Script", cursive; */
+    /* подчеркивание текста */
+    text-align: center;
+  }
+  
+  /* эти стили применятся только к li на уровень ниже ul */
+  ul>li {
+    /* нижний отступ */
+    margin-bottom: 5px;
+  }
+  
+  .heading-css {
+    margin-bottom: 5px;
+  }
+  
+ 
+  
+ 
+  
+  
