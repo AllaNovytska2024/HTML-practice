@@ -31,6 +31,10 @@ h2 {
   .heading-css {
     margin-bottom: 5px;
   }
+  .link-selector:hover {
+    color: blue;
+  }
+  
   
  
   
