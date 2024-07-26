@@ -46,7 +46,7 @@ li {
     margin-bottom: 5px;
   }
   .link-selector:hover {
-    color: blue;
+    color: rgb(128, 128, 193);
   }
   
   li {
