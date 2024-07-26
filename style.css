@@ -20,12 +20,26 @@ h2 {
     /* font-family: "Dancing Script", cursive; */
     /* подчеркивание текста */
     text-align: center;
+    
   }
+  h4{
+    color: #ff0000; 
+    
+  }
+  p {
+    color: #ff0000; 
+    font-size: 18px; 
+}
   
+li {
+  font-size: 12px;
+}
+
   /* эти стили применятся только к li на уровень ниже ul */
   ul>li {
     /* нижний отступ */
     margin-bottom: 5px;
+    
   }
   
   .heading-css {
@@ -35,7 +49,10 @@ h2 {
     color: blue;
   }
   
-  
+  li {
+    color: #1f074d ;
+    font-size: 25px;
+  }
  
   
  
