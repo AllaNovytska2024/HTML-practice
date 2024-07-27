@@ -1,60 +1,91 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+html {
+  font-size: 20px;
+  border-radius: 10%;
+  margin-top: 40px;
+}
 
-  
-  
-  /* селектор по классу в приоритет над селектором по тегам */
-  .subheading {
-    text-decoration: underline;
-    text-align:left;
-  }
-  h1 {
-    color: rgb(81, 114, 22); /* Цвет текста заголовка первого уровня */
+.square {
+  width: 10vw;
+  height: 50vw;
 }
-h2 {
-    color: rgb(22, 22, 93); /* Цвет текста заголовка второго уровня */
+.div {
+  width: 85vw;
+  height: 90vw;
 }
-  h3{color: rgb(111, 14, 38);
 
-  }
-  /* селектор по тегу */
-  p {
-    /* font-family: "Dancing Script", cursive; */
-    /* подчеркивание текста */
-    text-align: center;
-    
-  }
-  h4{
-    color: #ff0000; 
-    
-  }
-  p {
-    color: #ff0000; 
-    font-size: 18px; 
+/* селектор по классу в приоритет над селектором по тегам */
+.subheading {
+  text-decoration: underline;
+  text-align: center;
 }
-  
+
+.title_hello {
+  font-size: 0, 8rem;
+  color: rgb(81, 114, 22); /* Цвет текста заголовка первого уровня */
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.myName {
+  color: rgb(22, 22, 93); /* Цвет текста заголовка второго уровня */
+  font-size: 0, 5rem;
+}
+
+.profi {
+  color: rgb(190, 5, 5);
+  font-weight: bold;
+  font-size: 0, 2rem;
+}
+
+.aboutMe {
+  color: rgb(111, 14, 38);
+}
+
+.frontend {
+  background-color: rgb(167, 140, 147);
+}
+
+
+/* селектор по тегу */
+p {
+  /* font-family: "Dancing Script", cursive; */
+  /* подчеркивание текста */
+  text-align: center;
+}
+h4 {
+  color: #ff0000;
+}
+
+p {
+  color: #ff0000;
+  font-size: 18px;
+}
+
 li {
-  font-size: 12px;
+  font-size: 50%;
 }
 
-  /* эти стили применятся только к li на уровень ниже ul */
-  ul>li {
-    /* нижний отступ */
-    margin-bottom: 5px;
-    
-  }
-  
-  .heading-css {
-    margin-bottom: 5px;
-  }
-  .link-selector:hover {
-    color: rgb(128, 128, 193);
-  }
-  
-  li {
-    color: #1f074d ;
-    font-size: 25px;
-  }
- 
-  
- 
-  
-  
+/* эти стили применятся только к li на уровень ниже ul */
+ul > li {
+  /* нижний отступ */
+  margin-bottom: 5px;
+}
+
+.heading-css {
+  margin-bottom: 5px;
+}
+.link-selector:hover {
+  color: rgb(128, 128, 193);
+}
+
+li {
+  color: #1f074d;
+  font-size: 25px;
+}
